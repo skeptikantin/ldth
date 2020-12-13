@@ -64,13 +64,13 @@ newTrial("instructions",
         .css("font-size", "1.2em")
         .print()
     ,
-    newText("<p>In this experiment, your task is to decide<br/>"+
-        "whether the word on the screen is a word of English or not.<br/></p>" +
+    newText("<p>In this experiment, your task is to decide whether<br/>"+
+        "the word on the screen is a word of English or not.<br/></p>" +
         "<p>Please respond as quickly, but as accurately as possible.</p>" +
         "<p>Press the <b>J</b> key if <strong>the word is a word</strong> (think J resembles 'yes')<br/>and the <b>F</b> key if <strong>it is not a word</strong> (think F = 'false').</p>")
         .print()
     ,
-    newText("<p>Please place your index fingers on the J and F keys, respectively,<br>and press SPACE when you are ready to begin the training phase.</p>")
+    newText("<p>Please place your index fingers on the J and F keys, respectively,<br>and press SPACE when you are ready to begin a short training phase.</p>")
         .print()
    ,
     newKey(" ")
@@ -130,7 +130,7 @@ newTrial("intermission",
     "Remember: try to be as quick and as accurate as possible.</p>" +
     "<p>(<strong>F = false, not a word</strong> and <strong>J = yes, word</strong>)</p>" +
     "<p>You are now going to do the same for 48 more words.<br/>(No feedback will be given.)</p>"+
-    "<p>The experiment will pause after every 24 words,<br/>" +
+    "<p>The experiment will pause after 24 words,<br/>" +
     "at which point you are welcome to take a break if you want.</p>")
         .css("font-family", "Verdana")
         .print()
