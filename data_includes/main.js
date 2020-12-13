@@ -195,7 +195,23 @@ newTrial("debrief",
         .css("font-family", "Verdana")
         .print()
     ,
-
+    newText("<p>Before you go, would you mind providing us with feedback?<br/>" +
+        "This is voluntary, but will help us with the analysis.</p>")
+        .css("font-family", "Verdana")
+        .print()
+    ,
+    newText("<p><strong>What do you think the experiment was about?<br/>Anything else you'd like to tell us about your experience?</strong></p>")
+        .css("font-family", "Verdana")
+        .print()
+    ,
+    newTextInput("topic", "")
+        .settings.log()
+        .settings.lines(0)
+        .settings.size(400, 100)
+        .css("font-family", "Verdana")
+        .print()
+        .log()
+    ,
     newText("<p>Please indicate your handedness (voluntary, but helpful for interpreting results):</p>")
         .css("font-family", "Verdana")
         .print()
@@ -217,17 +233,19 @@ newTrial("debrief",
 SendResults()
 
 newTrial("goodbye",
-    newText("<p>Thank you very much for your time and effort!</p>")
+    newText("<p>That's it, thank you very much for your time and effort!</p>")
         .css("font-size", "1.2em")
         .css("font-family", "Verdana")
         .print()
     ,
-    newText("<strong><a href='https://app.prolific.co/submissions/complete?cc=878EA3AF'>Click here to return to Prolific to validate your participation.</a></strong>")
+    newText("<strong><a href='https://www.sfla.ch/'>Click here to return to Prolific to validate your participation.</a></strong>")
         .css("font-size", "1em")
+        .css("font-family", "Verdana")
         .print()
     ,
     newText("<p><br/>You can contact the corresponding researcher <a href='https://www.sfla.ch/' target='_blank'>here</a> (opens new tab).</p>")
         .css("font-size", ".8em")
+        .css("font-family", "Verdana")
         .print()
     ,
     newButton("void")
