@@ -93,7 +93,7 @@ Template("training.csv", row =>
         ,
 
         // Show item
-        newText("Item", row.Word)
+        newText("Word", row.Word)
             .css("font-size", "1.5em")
             .css("font-family", "Verdana")
             .center()
