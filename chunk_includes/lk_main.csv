@@ -1,0 +1,61 @@
+﻿Word,Cond,Frequency,Condition,LengthWord,Group,Corr
+nun,LF homophone,low,homophone,3,A,J
+none,HF homophone,high,homophone,4,B,J
+deer,LF homophone,low,homophone,4,B,J
+dear,HF homophone,high,homophone,4,A,J
+pear,LF homophone,low,homophone,4,A,J
+pair,HF homophone,high,homophone,4,B,J
+sail,LF homophone,low,homophone,4,B,J
+sale,HF homophone,high,homophone,4,A,J
+mane,LF homophone,low,homophone,4,A,J
+main,HF homophone,high,homophone,4,B,J
+ate,LF homophone,low,homophone,3,B,J
+eigth,HF homophone,high,homophone,5,A,J
+eye,LF homophone,low,homophone,3,A,J
+I,HF homophone,high,homophone,1,B,J
+four,LF homophone,low,homophone,4,B,J
+for,HF homophone,high,homophone,3,A,J
+knight,LF homophone,low,homophone,6,A,J
+night,HF homophone,high,homophone,5,B,J
+mail,LF homophone,low,homophone,4,B,J
+male,HF homophone,high,homophone,4,A,J
+meat,LF homophone,low,homophone,4,A,J
+meet,HF homophone,high,homophone,4,B,J
+won,LF homophone,low,homophone,3,B,J
+one,HF homophone,high,homophone,3,A,J
+vial,LF,low,none,4,,J
+plug,LF,low,none,4,,J
+tower,LF,low,none,5,,J
+piece,LF,low,none,5,,J
+worm,LF,low,none,4,,J
+bait,LF,low,none,4,,J
+house,HF,high,none,5,,J
+money,HF,high,none,5,,J
+love,HF,high,none,4,,J
+shop,HF,high,none,4,,J
+news,HF,high,none,4,,J
+very,HF,high,none,4,,J
+fran,,,nonword,4,,F
+ulti,,,nonword,4,,F
+swool,,,nonword,5,,F
+dect,,,nonword,4,,F
+deor,,,nonword,4,,F
+mins,,,nonword,4,,F
+wo,,,nonword,2,,F
+brunt,,,nonword,5,,F
+rif,,,nonword,3,,F
+flog,,,nonword,4,,F
+lom,,,nonword,3,,F
+smon,,,nonword,4,,F
+gi,,,nonword,2,,F
+houst,,,nonword,5,,F
+stants,,,nonword,6,,F
+keet,,,nonword,4,,F
+taird,,,nonword,5,,F
+ird,,,nonword,3,,F
+tiw,,,nonword,3,,F
+yigh,,,nonword,4,,F
+kyx,,,nonword,3,,F
+lals,,,nonword,4,,F
+molk,,,nonword,4,,F
+swyc,,,nonword,4,,F

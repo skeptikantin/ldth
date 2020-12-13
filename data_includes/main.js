@@ -8,7 +8,7 @@ Sequence("intro",
     "instructions",
     randomize("training"),
     "intermission",
-    sepWithN( "break" , randomize("experiment") , 33),
+    sepWithN( "break" , randomize("experiment") , 24),
     "debrief",
     SendResults(),
     "goodbye")
@@ -93,7 +93,7 @@ Template("training.csv", row =>
         ,
 
         // Show item
-        newText("Item", row.Item)
+        newText("Item", row.Word)
             .css("font-size", "1.5em")
             .css("font-family", "Verdana")
             .center()
@@ -116,9 +116,12 @@ Template("training.csv", row =>
             .wait()
     )
 // log info
-        .log("Id", row.Id)
-        .log("ExpId", row.ExpId)
-        .log("Item", row.Item)
+        .log("Word", row.Word)
+        .log("Cond", row.Cond)
+        .log("Frequency", row.Frequency)
+        .log("Condition", row.Condition)
+        .log("LengthWord", row.LengthWord)
+        .log("Group", row.Group)
         .log("Corr", row.Corr)
 )
 
@@ -126,9 +129,9 @@ newTrial("intermission",
     newText("<p>Well done, you should be good to go.<br/>" +
     "Remember: try to be as quick and as accurate as possible.</p>" +
     "<p>(<strong>F = false, not a word</strong> and <strong>J = yes, word</strong>)</p>" +
-    "<p>You are now going to do the same for 99 more words.<br/>(No feedback will be given.)</p>"+
-    "<p>The experiment will pause after every 33 words,<br/>" +
-    "at which points you are welcome to take a break if you want.</p>")
+    "<p>You are now going to do the same for 48 more words.<br/>(No feedback will be given.)</p>"+
+    "<p>The experiment will pause after every 24 words,<br/>" +
+    "at which point you are welcome to take a break if you want.</p>")
         .css("font-family", "Verdana")
         .print()
     ,
@@ -151,7 +154,7 @@ Template("main.csv", row =>
             .wait()
         ,
         // Show item
-        newText("Item", row.Item)
+        newText("Item", row.Word)
             .css("font-size", "1.5em")
             .css("font-family", "Verdana")
             .center()
@@ -164,9 +167,12 @@ Template("main.csv", row =>
             .once()
             .wait()
      )
-        .log("Id", row.Id)
-        .log("ExpId", row.ExpId)
-        .log("Item", row.Item)
+        .log("Word", row.Word)
+        .log("Cond", row.Cond)
+        .log("Frequency", row.Frequency)
+        .log("Condition", row.Condition)
+        .log("LengthWord", row.LengthWord)
+        .log("Group", row.Group)
         .log("Corr", row.Corr)
     ,
     newTrial("break",
