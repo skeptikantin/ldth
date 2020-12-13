@@ -222,6 +222,10 @@ newTrial("debrief",
         .print()
         .log()
     ,
+    newButton("Unselect")
+        .settings.callback( getScale("handedness").unselect() )
+        .print()
+    ,
     newButton("send", "Send results & proceed to verification link")
         .size(300)
         .center()
