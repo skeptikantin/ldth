@@ -145,7 +145,7 @@ newTrial("intermission",
         .wait()
 )
 
-Template("main.csv", row =>
+Template("lk_main.csv", row =>
     newTrial("experiment",
 
         // set up a timer so there is a x ms break between trials
