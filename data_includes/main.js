@@ -36,11 +36,8 @@ newTrial("intro",
         .css("font-family", "Verdana")
         .print()
     ,
-    newText("<p><strong>Informed Consent</strong>:</p>")
-        .css("font-family", "Verdana")
-        .print()
-    ,
-    newText("<p><strong>Voluntary participation:</strong> I understand that my participation in this study is voluntary.<br/>" +
+    newText("<p><strong>Informed Consent</strong>:</p>"+
+        "<p><strong>Voluntary participation:</strong> I understand that my participation in this study is voluntary.<br/>" +
         "<strong>Withdrawal:</strong> I can withdraw my participation at any time during the experiment.<br/>"+
         "<strong>Risks:</strong> There are no risks involved.<br/>"+
         "<strong>Equipment:</strong> I am participating from a device with a <strong>physical keyboard</strong>.<br/>"+
@@ -212,7 +209,7 @@ newTrial("debrief",
         .print()
         .log()
     ,
-    newText("<p>Please indicate your handedness (voluntary, but helpful for interpreting results):</p>")
+    newText("<p><strong>Your handedness:</strong></p>")
         .css("font-family", "Verdana")
         .print()
     ,
