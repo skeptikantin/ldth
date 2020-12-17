@@ -114,7 +114,6 @@ Template("training.csv", row =>
     )
 // log info
         .log("Word", row.Word)
-        .log("Cond", row.Cond)
         .log("Frequency", row.Frequency)
         .log("Condition", row.Condition)
         .log("LengthWord", row.LengthWord)
@@ -238,7 +237,7 @@ newTrial("goodbye",
         .css("font-family", "Verdana")
         .print()
     ,
-    newText("<strong><a href='https://www.sfla.ch/'>Click here to return to Prolific to validate your participation.</a></strong>")
+    newText("<strong><a href='https://app.prolific.co/submissions/complete?cc=3DEF2B0E'>Click here to return to Prolific to validate your participation.</a></strong>")
         .css("font-size", "1em")
         .css("font-family", "Verdana")
         .print()
