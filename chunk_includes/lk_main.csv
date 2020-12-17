@@ -1,97 +1,97 @@
 ﻿Word,Cond,Frequency,Condition,LengthWord,Group,Corr
-nun,LF homophone,low,homophone,3,A,J
-none,HF homophone,high,homophone,4,B,J
-deer,LF homophone,low,homophone,4,B,J
-dear,HF homophone,high,homophone,4,A,J
-pear,LF homophone,low,homophone,4,A,J
-pair,HF homophone,high,homophone,4,B,J
-sail,LF homophone,low,homophone,4,B,J
-sale,HF homophone,high,homophone,4,A,J
-mane,LF homophone,low,homophone,4,A,J
-main,HF homophone,high,homophone,4,B,J
-ate,LF homophone,low,homophone,3,B,J
-eigth,HF homophone,high,homophone,5,A,J
-eye,LF homophone,low,homophone,3,A,J
-I,HF homophone,high,homophone,1,B,J
-four,LF homophone,low,homophone,4,B,J
-for,HF homophone,high,homophone,3,A,J
-knight,LF homophone,low,homophone,6,A,J
-night,HF homophone,high,homophone,5,B,J
-mail,LF homophone,low,homophone,4,B,J
-male,HF homophone,high,homophone,4,A,J
-meat,LF homophone,low,homophone,4,A,J
-meet,HF homophone,high,homophone,4,B,J
-won,LF homophone,low,homophone,3,B,J
-one,HF homophone,high,homophone,3,A,J
-vial,LF,low,none,4,A,J
-plug,LF,low,none,4,A,J
-tower,LF,low,none,5,A,J
-piece,LF,low,none,5,A,J
-worm,LF,low,none,4,A,J
-bait,LF,low,none,4,A,J
-house,HF,high,none,5,A,J
-money,HF,high,none,5,A,J
-love,HF,high,none,4,A,J
-shop,HF,high,none,4,A,J
-news,HF,high,none,4,A,J
-very,HF,high,none,4,A,J
-vial,LF,low,none,4,B,J
-plug,LF,low,none,4,B,J
-tower,LF,low,none,5,B,J
-piece,LF,low,none,5,B,J
-worm,LF,low,none,4,B,J
-bait,LF,low,none,4,B,J
-house,HF,high,none,5,B,J
-money,HF,high,none,5,B,J
-love,HF,high,none,4,B,J
-shop,HF,high,none,4,B,J
-news,HF,high,none,4,B,J
-very,HF,high,none,4,B,J
-fran,,,nonword,4,A,F
-ulti,,,nonword,4,A,F
-swool,,,nonword,5,A,F
-dect,,,nonword,4,A,F
-deor,,,nonword,4,A,F
-minx,,,nonword,4,A,F
-ro,,,nonword,2,A,F
-brunt,,,nonword,5,A,F
-rif,,,nonword,3,A,F
-flog,,,nonword,4,A,F
-lom,,,nonword,3,A,F
-smon,,,nonword,4,A,F
-gi,,,nonword,2,A,F
-houst,,,nonword,5,A,F
-stants,,,nonword,6,A,F
-keet,,,nonword,4,A,F
-taird,,,nonword,5,A,F
-ird,,,nonword,3,A,F
-tiw,,,nonword,3,A,F
-yigh,,,nonword,4,A,F
-kyx,,,nonword,3,A,F
-lals,,,nonword,4,A,F
-molk,,,nonword,4,A,F
-swyc,,,nonword,4,A,F
-fran,,,nonword,4,B,F
-ulti,,,nonword,4,B,F
-swool,,,nonword,5,B,F
-dect,,,nonword,4,B,F
-deor,,,nonword,4,B,F
-minx,,,nonword,4,B,F
-ro,,,nonword,2,B,F
-brunt,,,nonword,5,B,F
-rif,,,nonword,3,B,F
-flog,,,nonword,4,B,F
-lom,,,nonword,3,B,F
-smon,,,nonword,4,B,F
-gi,,,nonword,2,B,F
-houst,,,nonword,5,B,F
-stants,,,nonword,6,B,F
-keet,,,nonword,4,B,F
-taird,,,nonword,5,B,F
-ird,,,nonword,3,B,F
-tiw,,,nonword,3,B,F
-yigh,,,nonword,4,B,F
-kyx,,,nonword,3,B,F
-lals,,,nonword,4,B,F
-molk,,,nonword,4,B,F
-swyc,,,nonword,4,B,F
+nun,study,low,homophone,3,A,J
+none,study,high,homophone,4,B,J
+deer,study,low,homophone,4,B,J
+dear,study,high,homophone,4,A,J
+pear,study,low,homophone,4,A,J
+pair,study,high,homophone,4,B,J
+sail,study,low,homophone,4,B,J
+sale,study,high,homophone,4,A,J
+mane,study,low,homophone,4,A,J
+main,study,high,homophone,4,B,J
+ate,study,low,homophone,3,B,J
+eight,study,high,homophone,5,A,J
+eye,study,low,homophone,3,A,J
+I,study,high,homophone,1,B,J
+four,study,low,homophone,4,B,J
+for,study,high,homophone,3,A,J
+knight,study,low,homophone,6,A,J
+night,study,high,homophone,5,B,J
+mail,study,low,homophone,4,B,J
+male,study,high,homophone,4,A,J
+meat,study,low,homophone,4,A,J
+meet,study,high,homophone,4,B,J
+won,study,low,homophone,3,B,J
+one,study,high,homophone,3,A,J
+vial,study,low,none,4,A,J
+plug,study,low,none,4,A,J
+tower,study,low,none,5,A,J
+piece,study,low,none,5,A,J
+worm,study,low,none,4,A,J
+bait,study,low,none,4,A,J
+house,study,high,none,5,A,J
+money,study,high,none,5,A,J
+love,study,high,none,4,A,J
+shop,study,high,none,4,A,J
+news,study,high,none,4,A,J
+very,study,high,none,4,A,J
+vial,study,low,none,4,B,J
+plug,study,low,none,4,B,J
+tower,study,low,none,5,B,J
+piece,study,low,none,5,B,J
+worm,study,low,none,4,B,J
+bait,study,low,none,4,B,J
+house,study,high,none,5,B,J
+money,study,high,none,5,B,J
+love,study,high,none,4,B,J
+shop,study,high,none,4,B,J
+news,study,high,none,4,B,J
+very,study,high,none,4,B,J
+fran,study,,nonword,4,A,F
+ulti,study,,nonword,4,A,F
+swool,study,,nonword,5,A,F
+dect,study,,nonword,4,A,F
+deor,study,,nonword,4,A,F
+minx,study,,nonword,4,A,F
+ro,study,,nonword,2,A,F
+brunt,study,,nonword,5,A,F
+rif,study,,nonword,3,A,F
+flog,study,,nonword,4,A,F
+lom,study,,nonword,3,A,F
+smon,study,,nonword,4,A,F
+gi,study,,nonword,2,A,F
+houst,study,,nonword,5,A,F
+stants,study,,nonword,6,A,F
+keet,study,,nonword,4,A,F
+taird,study,,nonword,5,A,F
+ird,study,,nonword,3,A,F
+tiw,study,,nonword,3,A,F
+yigh,study,,nonword,4,A,F
+kyx,study,,nonword,3,A,F
+lals,study,,nonword,4,A,F
+molk,study,,nonword,4,A,F
+swyc,study,,nonword,4,A,F
+fran,study,,nonword,4,B,F
+ulti,study,,nonword,4,B,F
+swool,study,,nonword,5,B,F
+dect,study,,nonword,4,B,F
+deor,study,,nonword,4,B,F
+minx,study,,nonword,4,B,F
+ro,study,,nonword,2,B,F
+brunt,study,,nonword,5,B,F
+rif,study,,nonword,3,B,F
+flog,study,,nonword,4,B,F
+lom,study,,nonword,3,B,F
+smon,study,,nonword,4,B,F
+gi,study,,nonword,2,B,F
+houst,study,,nonword,5,B,F
+stants,study,,nonword,6,B,F
+keet,study,,nonword,4,B,F
+taird,study,,nonword,5,B,F
+ird,study,,nonword,3,B,F
+tiw,study,,nonword,3,B,F
+yigh,study,,nonword,4,B,F
+kyx,study,,nonword,3,B,F
+lals,study,,nonword,4,B,F
+molk,study,,nonword,4,B,F
+swyc,study,,nonword,4,B,F

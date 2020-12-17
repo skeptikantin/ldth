@@ -57,7 +57,7 @@ newTrial("intro",
 
 newTrial("instructions",
 
-    newText("<p><strong>The word decision task</strong></p>")
+    newText("<p><strong>The word recognition task</strong></p>")
         .css("font-size", "1.2em")
         .print()
     ,
@@ -165,7 +165,6 @@ Template("lk_main.csv", row =>
             .wait()
      )
         .log("Word", row.Word)
-        .log("Cond", row.Cond)
         .log("Frequency", row.Frequency)
         .log("Condition", row.Condition)
         .log("LengthWord", row.LengthWord)
